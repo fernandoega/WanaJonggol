@@ -1,16 +1,3 @@
-No problem, here's the full, updated code for your WanaJonggol Park landing page, incorporating the mobile responsiveness improvements we discussed.
-
-I've made these key changes:
-
-  * **Hamburger Menu JavaScript:** Added the necessary JavaScript right before the closing `</body>` tag to make your mobile navigation functional.
-  * **Removed `ml-10` from `div`s that contain `px-4` within a `container`:** This prevents unnecessary left margins on small screens.
-  * **Responsive Image Sizing:** Replaced fixed `width` and `height` inline styles on gallery and merchandise images with Tailwind's `w-full h-auto` and specific height classes (`h-64`, `h-72`) combined with `object-cover` for better responsiveness.
-  * **Responsive Iframes:** Implemented a common responsive iframe pattern using `relative` and ` pt-[%]  ` to maintain aspect ratios for your YouTube video and Google Maps embed, and removed the fixed `width` and `height` attributes.
-  * **Placeholder URL and Content Reminder:** Left comments where you need to insert your actual content, video embed URLs, and map URLs.
-
------
-
-```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
